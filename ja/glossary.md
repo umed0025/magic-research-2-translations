@@ -80,6 +80,11 @@
 | Cultist | カルト信者 | Path of Corruptionストーリーラインで解放するクラス |
 | The Hideout | 隠れ家 | 探索エリア名 |
 | Zealot | 熱心な信奉者 | 例: Zealot of the Zeth Kingdom→ゼス王国の熱心な信奉者 |
+| Ethereal Truth | エーテルの真実 | Weapon/Garment/Footwear各バリエーションを持つストーリーライン |
+| Somebody's Trash | 誰かのゴミ | Hat/Book/Treasure各バリエーションを持つストーリーライン |
+| Sphinx Protectors | スフィンクスの守護者 | スフィンクスエリアのモンスター |
+| Essence Artifact | エッセンスの遺物 | ストーリーアイテム |
+| Wizard Leader | ウィザードリーダー | Sage（賢者）クラスを解放するストーリーライン名 |
 
 ## 属性・ステータス
 
