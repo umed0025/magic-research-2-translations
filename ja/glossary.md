@@ -60,6 +60,14 @@
 | Universal Challenge | ユニバーサルチャレンジ | 特殊チャレンジ名。Challenge=チャレンジの命名規則に準拠 |
 | Hypervault | ハイパーヴォールト | 呪文作成素材用の特別貯蔵庫（固有名詞、音訳） |
 | Tracking Stone | 追跡の石 | ストーリーアイテム |
+| Divine Script(s) | 神の経典 | 「神の聖典」ではなく「神の経典」が確定訳（要注意: 初期に誤訳した箇所を修正済み） |
+| necromancer | ネクロマンサー | |
+| Synchro Board | シンクロボード | ストーリー中の小道具（三目並べの盤として登場） |
+| Storyline Oracle Boon | ストーリーラインの神託の恩恵 | Boon Points関連の恩恵の一種 |
+| Sale Rush | 販売ラッシュ | ランダムイベント名 |
+| Mad Alchemist | 狂った錬金術師 | 下水道のキャラクター |
+| Observatory | 天文台 | 探索エリア内の施設 |
+| Tome of Living/Divine/Deathly/Toxic/Mental/Temporal Knowledge | 生命/神/死/毒/精神/時間の知識の魔導書 | 各属性の完全解放ストーリーラインで得る魔導書。パターン「{{element}}の知識の魔導書」で統一 |
 
 ## 属性・ステータス
 
