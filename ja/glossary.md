@@ -68,6 +68,10 @@
 | Mad Alchemist | 狂った錬金術師 | 下水道のキャラクター |
 | Observatory | 天文台 | 探索エリア内の施設 |
 | Tome of Living/Divine/Deathly/Toxic/Mental/Temporal Knowledge | 生命/神/死/毒/精神/時間の知識の魔導書 | 各属性の完全解放ストーリーラインで得る魔導書。パターン「{{element}}の知識の魔導書」で統一 |
+| Tome of Astrological Knowledge | 星の知識の魔導書 | 空間属性の解放ストーリーラインで得る魔導書。原語がAstrological（占星術的）で他のTomeと語形が異なる点に注意 |
+| Tournament of Magic | 魔法トーナメント | 学院の過去の大会 |
+| School Trophy | 学院トロフィー | 既存の「School」訳語と組み合わせ。例: School Trophy (Tower of Life)→学院トロフィー（生命の塔） |
+| Needlers | ニードラー | 砂漠のサボテン型モンスター |
 
 ## 属性・ステータス
 
