@@ -52,6 +52,14 @@
 | Quickbar | クイックバー | 探索中によく使う呪文を素早く使うための欄 |
 | Pouch Items | ポーチアイテム | 戦闘中に使う消費されない装備アイテム（ポーション等） |
 | Current Goal | 現在の目標 | Home画面下部に表示される進行ガイド |
+| Boon / Boon Points | 恩恵 / 恩恵ポイント | 例: Blazing Speed Boon→灼熱の速度の恩恵、Sheer Power Boon→純粋な力の恩恵 |
+| Wide (呪文名の接頭) | ワイド | 使い魔にも効果が及ぶ呪文の上位版を示す接頭語。Wide Heal等 |
+| Lytha, Doom Sorceress | リタ、破滅の魔女 | ストーリー終盤の敵キャラクター |
+| Satell | サテル | 神格的存在（キャラクター名、[固有名詞]表参照） |
+| Deflective Shield | 偏向の盾 | ストーリーアイテム |
+| Universal Challenge | ユニバーサルチャレンジ | 特殊チャレンジ名。Challenge=チャレンジの命名規則に準拠 |
+| Hypervault | ハイパーヴォールト | 呪文作成素材用の特別貯蔵庫（固有名詞、音訳） |
+| Tracking Stone | 追跡の石 | ストーリーアイテム |
 
 ## 属性・ステータス
 
