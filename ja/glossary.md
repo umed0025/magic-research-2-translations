@@ -65,6 +65,9 @@
 | Poison | 毒 |
 | Death | 死 |
 | Air | 風 |
+| Electric | 電気 |
+| Space | 空間 |
+| Time | 時間 |
 | HP | HP |
 | Mana | マナ |
 | Exp | 経験値 |
