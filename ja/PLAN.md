@@ -61,6 +61,13 @@
 - `ja/_apply_batch.ps1` は汎用スクリプトとして残置。Unicodeデコード処理込みで、以後のチャンクでもそのまま使い回せる。
 - キャラクター設定: Satell(サテル、神格、フォーマル)、Headmaster(学院長、老齢男性、フォーマル)、雇われウィザードcompanion(女性、口語的)、Lytha/Doom Sorceress(リタ/破滅の魔女、傲慢)。地の文は「あなた」+だ・である体で統一。ただし「You have selected **属性**！」系のUIメッセージのみ既存訳（Holy/Space/Time）に合わせてですます調を踏襲。
 - 既知の誤り: バッチ3で "Tower of {{element}} Training" を「{{element}}修行の塔」と訳したが、既存確定訳は「{{element}}の訓練の塔」だったため修正済み（[translations.json:1755](translations.json:1755)付近）。新規用語を訳す前に必ず`Get-Content ja/translations.json | ConvertFrom-Json`で完全一致・部分一致検索し、既存訳と重複が無いか確認すること。
+- 用語ブレの実例（2026-08-22発見・修正済み）: "the School"（固有名詞、探索先の名門校）を7箇所で誤って「学校」と訳していた（確定訳は「学院」）。原因は、原文に一般名詞の"school"（例: "magic school"）も混在しており、訳出時に混同したこと。定期的に`$ja.Keys | Where { $_ -cmatch '\bSchool\b' -and $ja[$_] -notmatch '学院' -and $ja[$_] -match '学校' }`のような大文字小文字を区別する検索でブレを検出するとよい。
+
+## 重大な落とし穴: base-translations.jsonのタイポによる未翻訳キーの検出漏れ（2026-08-22発見）
+
+未翻訳キーの抽出は `$ja.Keys | Where-Object { $ja[$_] -eq $_ }`（値がキーと完全一致＝未翻訳）という判定に依存していたが、**base-translations.json自体に軽微なタイポ・表記ゆれ**（例: `on that element` vs `in that element`、`monstruous` vs `monstrous`、`life beings` vs `living beings`、文末の余分な`\"`など）があり、ja/translations.json作成時にキーと値で異なる版の英文が入っていたケースがあった。この場合、値がキーと完全一致しないため「翻訳済み」と誤判定され、100文字超の長文が最大5件、実質未翻訳のまま見逃されていた（うち1件はバッチ4完了後に別途発見・修正）。
+
+**再発防止**: 完全一致チェックに加えて、`-not ($ja[$_] -match '[\p{IsHiragana}\p{IsKatakana}\p{IsCJKUnifiedIdeographs}]')`（日本語文字を一切含まない値）で全体をスキャンし、未翻訳の見逃しがないか確認すること。また、base-translations.jsonとja/translations.jsonの全キーについて、プレースホルダー（`{{}}`・`:token:`）の集合が一致するかを**バッチ単位ではなく全体で**検証すること（`foreach ($k in $ja.Keys) { if ($base.ContainsKey($k)) { ... } }`）。今回この全体検証で追加のプレースホルダー漏れも1件発見した。
 
 ## 既知の落とし穴: 改行を含むキーのテキストファイル出力
 
