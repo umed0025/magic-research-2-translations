@@ -72,6 +72,10 @@
 | Tournament of Magic | 魔法トーナメント | 学院の過去の大会 |
 | School Trophy | 学院トロフィー | 既存の「School」訳語と組み合わせ。例: School Trophy (Tower of Life)→学院トロフィー（生命の塔） |
 | Needlers | ニードラー | 砂漠のサボテン型モンスター |
+| Rainbow Armor | 虹色の鎧 | 聖属性の装備アイテム |
+| Wizardry Furniture | 設備学 | 学院の授業科目名 |
+| Familiar Wrangler / Plentiful Spellcasting / Agility of Gods / Merchant Master | 使い魔使い / 豊富な呪文詠唱 / 神々の敏捷 / 商人の達人 | 学院トロフィー名の一部 |
+| Familiar Raising Techniques | 使い魔育成術 | ストーリーで得る書物 |
 
 ## 属性・ステータス
 
