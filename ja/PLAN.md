@@ -40,6 +40,7 @@
 
 - Retirement → 転生（要説明文根拠あり、[ja/glossary.md](glossary.md) 参照）
 - Furniture → 設備（「家具」ではなく機能装置群のため。ユーザー承認済み）
+- Channel / Channeling → 変換（当初「チャネル/チャネリング」としていたが、"Channel Fire" = "Channel some of your Mana into Fire Essence"の略で、実際にはマナをエッセンスに変換する行為を指すと判明。動詞・名詞とも「変換」系に統一し、関連54キーを修正済み）
 - その他システム用語・固有名詞多数。翻訳前に必ず [ja/glossary.md](glossary.md) を確認すること。
 
 ## 次のバッチ候補（未着手・優先度順の叩き台）

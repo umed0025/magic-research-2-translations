@@ -22,7 +22,7 @@
 | Element / Primary Element | 属性 / 主属性 | |
 | Essence / Essence Storage | エッセンス / エッセンス貯蔵庫 | |
 | Transmute / Transmutation | 変成 / 変成術 | |
-| Channeling | チャネリング | エッセンスを継続生成する呪文カテゴリ |
+| Channel / Channeling | 変換 | マナをエッセンスに変換する呪文カテゴリ。動詞"Channel X"は"Channel some of your Mana into X Essence"の略で「Xに変換」。名詞"Channeling"も「変換」で統一（当初「チャネリング」としていたが、実際の説明文から動詞用法が「マナを変換する」行為であることが判明したため訂正） |
 | Perma-Cast | 永続詠唱 | 常時発動し続ける呪文 |
 | Spellcraft | 呪文作成 | 呪文を作るシステム・画面名 |
 | Familiar | 使い魔 | |
