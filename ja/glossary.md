@@ -76,6 +76,10 @@
 | Wizardry Furniture | 設備学 | 学院の授業科目名 |
 | Familiar Wrangler / Plentiful Spellcasting / Agility of Gods / Merchant Master | 使い魔使い / 豊富な呪文詠唱 / 神々の敏捷 / 商人の達人 | 学院トロフィー名の一部 |
 | Familiar Raising Techniques | 使い魔育成術 | ストーリーで得る書物 |
+| Enchanted Spring | 魔法の泉 | 初期訳「魔法のバネ」は誤訳のため修正済み（spring=泉の意） |
+| Cultist | カルト信者 | Path of Corruptionストーリーラインで解放するクラス |
+| The Hideout | 隠れ家 | 探索エリア名 |
+| Zealot | 熱心な信奉者 | 例: Zealot of the Zeth Kingdom→ゼス王国の熱心な信奉者 |
 
 ## 属性・ステータス
 
